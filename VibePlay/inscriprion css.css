@@ -1,0 +1,51 @@
+h1{
+    margin-top: initial;
+    color: #ff4a57;
+    text-shadow: 0 0 10px #ff4a57;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.966);
+  backdrop-filter: blur(4px);
+    color: #ff4a57;
+    height: 100vh;
+    justify-content: center;
+    text-align: left;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    align-self: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff2433, #00f0ff);
+    color: rgb(255, 255, 255);
+}

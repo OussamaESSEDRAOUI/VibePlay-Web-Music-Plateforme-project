@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Se connecter ● VibePlay</title>
+        <link rel="stylesheet" href="se connecter css.css" />
+      </head>
+        <body>
+            <div class="container">
+                <div class="form-container sign-in-container">
+                    <form action="index.html" method="POST">
+                        <h1>Se connecter</h1>
+                        <p>Pour rester connecté avec votre vibe, inscrivez-vous.</p>
+                        <input type="email" name="email" placeholder="Email" required />
+                        <input type="password" name="password" placeholder="Mot de passe" required />
+                        <button type="submit">Se connecter</button>
+                    </form>
+
+                </div>
+                <span>Vous n’avez pas de compte ?</span>
+                <div class="overlay-container">
+                    <div class="overlay">
+                        <div class="overlay-panel overlay-right">
+                             <button class="ghost" id="signIn" onclick="window.location.href='Inscription page.html'">S'inscrire</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </body>
